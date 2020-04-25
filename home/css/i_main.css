@@ -1,0 +1,28 @@
+.header {
+    height:             150px;
+    margin:             2px;
+    border:             1px solid black;
+    text-align:         center;
+}
+
+.body {
+    height:             450px;
+    margin:             2px;
+    border:             1px solid black;
+}
+
+.footer {
+    height:             200px;
+    margin:             2px;
+    border:             1px solid black;
+}
+
+.line {
+    height:             149px;
+    border:             1px solid black;
+    border-bottom:      0px;
+    border-right:       0px;
+    border-left:        0px;
+}
+
+

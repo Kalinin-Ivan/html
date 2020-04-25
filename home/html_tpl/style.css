@@ -1,0 +1,180 @@
+.flt_lft{
+	float:					left;
+}
+
+.flt_rgh{
+	float:					right;
+}
+
+.clr_bth{
+	clear:					both;
+}
+
+.in{
+	padding:				10px;
+}
+
+/*-----[body]-----*/
+BODY{
+	background:				#373737 url(/images/design/serkirp32.jpg) repeat fixed top left;
+}
+
+/*-----[/lbody]-----*/
+/*-----[ /basic]-----*/
+#basic{
+	background-color:		white;
+}
+
+#container{
+	
+}
+/*-----[ /basic]-----*/
+
+/*-----[left_column]-----*/
+#left_column{
+	background-color:		#F0F0F0;
+}
+#left_column_in{
+	padding:				0;
+}
+
+/*-----[leftMenu]-----*/
+DIV#leftMenu{
+	
+}
+
+DIV#leftMenu * {
+	margin:					0;
+	padding:				0;
+	border-right:			1px solid grey;
+	border-bottom:			1px solid grey;
+}
+
+DIV#leftMenu UL{
+	width: 200px; /* Width of Menu Items */
+	list-style-type:		none;
+	background-color:		#F0F0F0;
+}
+
+DIV#leftMenu UL LI{
+	position:				relative;
+}
+
+DIV#leftMenu LI UL {
+	position: absolute;
+	left: 199px; /* Set 1px less than menu width */
+	top: 0;
+	display: none;
+}
+
+
+/* Styles for Menu Items */
+DIV#leftMenu UL LI A {
+	border:					medium none;
+	color:					blue;
+	cursor:					pointer;
+	display:				block;
+	text-decoration:		none;
+	padding:				5px 10px;
+	border:					1px solid #E0E0E0; /* IE6 Bug */
+	border-bottom:			0;
+}
+
+DIV#leftMenu UL LI A:visited {
+	COLOR:				blue;
+}
+
+DIV#leftMenu UL LI A:hover {
+	COLOR:					#FF00FF;
+}
+
+DIV#leftMenu UL LI.current{
+	border-color:				#FF00FF;
+}
+
+DIV#leftMenu UL LI A.active{
+	FONT-WEIGHT:				bolder;
+}
+
+DIV#leftMenu LI:hover UL, DIV#leftMenu LI.over UL {
+	display:					block;
+}
+
+DIV#leftMenu LI:hover UL LI UL, DIV#leftMenu LI.over UL LI UL{
+	display:					none;
+}
+
+DIV#leftMenu LI:hover UL LI:hover UL, DIV#leftMenu LI.over UL LI:hover UL{
+	display:					block;
+}
+
+DIV#leftMenu LI:hover UL LI:hover UL LI UL, DIV#leftMenu LI.over UL LI:hover UL LI UL{ /* ограничили меню тремя уровнями */
+	display:					none;
+}
+
+/*-----[/leftMenu]-----*/
+/*-----[/left_column]-----*/
+/*-----[ /right_column]-----*/
+#right_column{
+	background-color:		#F0F0F0;
+}
+
+#right_column_in{
+	padding-right:		17px;
+}
+
+/*-----[ /right_column]-----*/
+/*-----[header]-----*/
+#header{
+	background-color:	#F0F0F0;
+}
+
+#header_in *{
+	padding:			10px;
+}
+
+#header_in * *{
+	padding:			0;
+}
+
+#logo{
+	padding:			0;
+	margin:				-10px 0;
+}
+
+#logo *{
+	margin:				5px;
+}
+
+#logo * *{
+	margin:				0;
+}
+/*-----[/header]-----*/
+
+/*-----[ footer]-----*/
+#footer{
+	background:			#F0F0F0 url(/images/design/footer.gif) no-repeat scroll top center;
+}
+
+#footer_center{
+	
+}
+
+#footer_left{
+	
+}
+
+#footer_left_in{
+	padding-left:		60px;
+}
+
+#footer_right{
+	
+}
+
+#footer_right_in{
+	padding-right:		60px;
+	text-align:			right;
+}
+/*-----[ /footer]-----*/
+

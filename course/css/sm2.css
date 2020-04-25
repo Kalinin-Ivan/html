@@ -1,0 +1,36 @@
+#id1{
+        width:              500px;
+        height:             600px;
+        margin:             0px auto;
+        text-align:         center;
+        border:             1px solid black;
+}
+
+
+div div div:hover{
+    background-color:   red;
+}
+
+#id2 {
+    height:             100px;
+    width:              49%;
+    font-family:        'Pacifico','Sans';
+    float:              left;
+    border:             1px solid black;
+    border-left:        0px;
+}
+
+#id2_2 {
+    height:             100px;
+    width:              49%;
+    font-family:        'Pacifico','Sans';
+    float:              right;
+    border:             1px solid black;
+    border-right:       0px;
+}
+
+#id3 {
+    height:             100px;
+    border:             1px solid black;
+}
+

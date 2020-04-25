@@ -1,0 +1,416 @@
+.own, .own td, .own th {
+    border:         2px solid black;
+    background:     grey;
+    font-size:      14pt;
+    width:          425px;
+    height:         475px;
+    margin:         0px 0px 0px 450px
+}
+
+.own1    {
+    border:         2px solid black;
+    background:     grey;
+    font-size:      14pt;
+    width:          450px;
+    /*float:          right;*/
+    margin:         0px 250px 0px 0px;
+
+
+}
+
+.own2    {
+    border:         2px solid black;
+    background:     grey;
+    font-size:      14pt;
+    width:          125px;
+    height:         50px;
+    margin:         0px 0px 0px 450px;
+    padding:        50px 0px 0px 0px;
+
+}
+
+.own3    {
+    border:         2px solid black;
+    background:     grey;
+    font-size:      14pt;
+    width:          350px;
+    height:         50px;
+    margin:         0px 0px 25px 50px;
+    padding:        0px 0px 0px 0px;
+
+}
+
+
+.own4    {
+    border-top:     2px solid black;
+    background:     grey;
+    font-size:      30pt;
+    width:          450px;
+    height:         100px;
+    margin:         0px 0px 0px 0px;
+    padding:        0px 0px 0px 0px;
+
+}
+
+.SM {
+    padding:        0px 0px 0px 125px;
+}
+
+.SM2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 75px;
+    padding: 0px 0px 0px 0px;
+}
+
+.SM3 {
+    border:         2px solid black;
+    width:          125px;
+    height:         50px;
+}
+
+.SM4 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.SM5 {
+    border:         2px solid black;
+    width:          300px;
+    height:         75px;
+    padding:        50px 0px 0px 125px
+}
+
+.block {
+    height:         800px;
+    width:          1100px;
+}
+
+/*2 последних дз*/
+
+#header {
+    height:               100px;
+    width:                100%;
+    background-color:     grey;
+    margin:               0px 0px 50px 0px;
+    border:               3px solid black;
+    text-align:           center;
+    font-size:            30pt;
+}
+
+#body{
+     height:               610px;
+     width:                100%;
+     margin:               0px 0px 50px 0px;
+     background-color:     grey;
+     border:               3px solid black;
+     padding:              8px
+}
+}
+
+#footer{
+     height:               350px;
+     width:                100%;
+     background-color:     grey;
+     border:               3px solid black;
+}
+
+#krayneystolb1 {
+     height:               600px;
+     width:                250px;
+     margin:               5px;
+     float:                left;
+     border:               3px solid black;
+}
+
+#krayneystolb2 {
+     height:               600px;
+     width:                250px;
+     margin:               5px;
+     float:                left;
+     border:               3px solid black;
+}
+
+#centerstolb {
+     height:               600px;
+     width:                525px;
+     background-color:     white;
+     margin:               5px;
+     float:                left;
+     border:               3px solid black;
+}
+
+#sayt {
+     height:               100px;
+     border:               3px solid black;
+     text-align:           center;
+}
+
+.table, .table th {
+    border:                 3px solid black;
+}
+
+th {
+    padding: 0px;
+    width:24%;
+}
+
+.menu_item {
+    height:100%;
+    padding-top:45%;
+
+}
+
+.menu_item:hover {
+    background: blue;
+}
+
+#text {
+    text-align:              center;
+    color:                    red;
+    margin:                   15px 15px 0px 15px;
+
+}
+
+.novostnoy {
+     height:               50px;
+     width:                485px;
+     margin:               15px;
+     border:               2px solid black;
+     background-color:     grey;
+}
+
+#sozdatel {
+     height:               120px;
+     width:                97%;
+     background-color:     grey;
+     border:               2px solid black;
+     margin:               5px;
+
+}
+
+#roditel {
+    height:               100%;
+    width:                750px;
+    margin:               0px 300px 0px 300px;
+}
+
+#zagolovock {
+    height:               100px;
+    width:                750px;
+    border:               2px solid black;
+    margin:               0px 0px 8px 0px;
+    background:            url("../img/fon6.jpg");
+    text-align:           center;
+    color:                white;
+}
+
+.block1 {
+    height:               100px;
+    width:                185px;
+    border:               1px solid black;
+    float:                left;
+}
+
+.big_block {
+    height:               700px;
+    width:                750px;
+    border:               2px solid black;
+    margin:               0px auto;
+    background:            url("../img/fon5.jpg");
+}
+
+.mine1 {
+    height:               100px;
+    width:                750px;
+    margin:               5px auto;
+    border:               2px solid black;
+    background:            url("../img/fon6.jpg");
+}
+
+.block2 {
+    height:               100px;
+    width:                600px;
+    border:               3px solid black;
+    margin:               5px auto;
+    background-color:     white;
+}
+
+#zagolovock1 {
+    height:               100px;
+    width:                750px;
+    border:               2px solid black;
+    margin:               0px 0px 8px 0px;
+    background:            url("../img/fon6.jpg");
+    text-align:           center;
+    color:                white;
+    margin:               0px auto;
+}
+
+#center {
+    height:               490px;
+    width:                750px;
+}
+
+.minu_echeycka    {
+    height:               50px;
+    width:                125px;
+    margin:               8px 8px 8px 30px;
+    color:                blue;
+    text-align:           center;
+    background-color:     white;
+    font-size:            17pt;
+}
+
+.selfe  {
+    border:               8px outset blue;
+    height:               150px;
+    width:                150px;
+    border-radius:        150px;
+    float:                left;
+}
+
+.minu_echeycka:hover    {
+    border-radius:        50px;
+    background-color:     blue;
+    border:               2px solid black;
+    color:                white;
+}
+
+.echeycka {
+    height:               160px;
+    width:                100%;
+    border:               0.5px solid black;
+    color:                white;
+}
+
+.head {
+    height:               150px;
+    width:                auto;
+    margin:               8px;
+    text-align:           center;
+    font-size:            30pt;
+}
+
+.block_glavn {
+    font-size:            25pt;
+    float:                right;
+}
+
+.name   {
+    height:               160px;
+    width:                auto;
+    margin:               0px 0px 100px 0px;
+}
+
+.diploms    {
+    text-align:           center;
+}
+
+#minu {
+    height:               300px;
+    width:                200px;
+    border:               2px solid black;
+    float:                left;
+    margin:               0px 5px 0px 0px;
+    background:           url("../img/fon6.jpg");
+    color:                white;
+    text-align:           center;
+}
+
+#osnovnoy_content {
+    height:               100%;
+    width:                525px;
+    float:                right;
+    border:               2px solid black;
+    background:           url("../img/fon4.jpg");
+}
+
+.holst {
+    background:           url("../img/pergament.jpg");
+    width:                900px;
+    height:               1180;
+}
+
+.div {
+    height:               250;
+    width:                500;
+    background-position:  left;
+    background-color:     yellow;
+}
+
+.kartenkaleft1   {
+    height:               160px;
+    width:                160px;
+    float:                left;
+    border:               4px ridge white;
+    border-radius:        50px;
+}
+
+.kartenkaleft1:hover   {
+    height:               160px;
+    width:                160px;
+    float:                left;
+    border:               6px ridge yellow;
+    border-radius:        50px;
+}
+
+
+.kartenkaleft2   {
+    height:               160px;
+    width:                160px;
+    float:                left;
+    border:               4px ridge white;
+    border-radius:        50px;
+    background:           url("../img/urovneneye.jpg");
+}
+
+.kartenkaleft2:hover   {
+    height:               160px;
+    width:                160px;
+    float:                left;
+    border:               6px ridge yellow;
+    border-radius:        50px;
+    background:           url("../img/urovneneye1.jpg");
+}
+
+.kartenkaright1   {
+    height:               160px;
+    width:                160px;
+    float:                right;
+    border:               4px ridge white;
+    border-radius:        50px;
+}
+
+.kartenkaright1:hover   {
+    height:               160px;
+    width:                160px;
+    float:                right;
+    border:               6px ridge yellow;
+    border-radius:        50px;
+}
+
+p:hover {
+    color:                yellow;
+    font-size:             20pt;
+}
+
+#body1 {
+    background:           url("../img/fon3.jpg");
+}
+
+
+.kartenkaleft3   {
+    height:               100px;
+    width:                100px;
+    float:                left;
+    border:               4px solid blue;
+    background:           url("../img/voda.jpg");
+}
+
+body {
+    background:            url("../img/nighte sky.jpg");
+}
+

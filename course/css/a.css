@@ -1,0 +1,16 @@
+body {
+    background:            url("../img/stena.jpg");
+    height:                100px;
+    width:                 1000px;
+}
+
+#header {
+    height:                100px;
+    width:                 1000px;
+    background-color:      brown;
+}
+
+#body {
+    height:                100px;
+    width:                 1000px;
+}
