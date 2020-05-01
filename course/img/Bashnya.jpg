@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html  lang="ru">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="/images/icons/favicons/fav_logo.ico?6" />
+
+<link rel="apple-touch-icon" href="/images/icons/pwa/apple/default.png?8">
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta name="description" content="ВКонтакте – универсальное средство для общения и поиска друзей и одноклассников, которым ежедневно пользуются десятки миллионов человек. Мы хотим, чтобы друзья, однокурсники, одноклассники, соседи и коллеги всегда оставались в контакте." />
+<meta property="og:site_name" content="VK"/><meta property="og:type" content="website"/><meta property="og:title" content="Фанаты &amp;quot;Властелина колец&amp;quot; потребовали превратить небоскреб в башню Саурона"/><meta property="og:description" content="Фанаты трилогии Питера Джексона &quot;Властелин колец&quot; организовали сбор подписей под петицией, призывающей владельцев небоскреба Salesforce T.."/><meta property="og:url" content="https://vk.com/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba"/><meta property="og:image" content="http://sun9-33.userapi.com/c849032/v849032721/a2f9b/O0GbVf4BxEU.jpg"/><meta property="og:image:secure_url" content="https://sun9-33.userapi.com/c849032/v849032721/a2f9b/O0GbVf4BxEU.jpg"/><meta property="og:image:width" content="948"/><meta property="og:image:height" content="568"/>
+
+<title>Фанаты &quot;Властелина колец&quot; потребовали превратить небоскреб в башню Саурона | ВКонтакте</title>
+
+<noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
+
+<link rel="stylesheet" type="text/css" href="/css/al/common.css?65760341776" /><link rel="stylesheet" type="text/css" href="/css/al/base.css?1" /><link rel="stylesheet" type="text/css" href="/css/al/fonts_utf.css?1" />
+
+<script type="text/javascript">
+(function() {
+var alertCont;
+function trackOldBrowserEvent(event) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '/badbrowser_stat.php?act=track&event=' + event);
+  xhr.send();
+}
+function exposeGlobals() {
+  window.hideOldBrowser = function() {
+    alertCont.remove();
+    var date = new Date();
+    date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
+    var expiresDate = date.toGMTString();
+    var domain = window.locDomain;
+    document.cookie = 'remixoldbshown=1; expires=' + expiresDate + '; path=/' + (domain ? '; domain=.' + domain : '') + ';secure';
+    trackOldBrowserEvent('hideAlert_atom');
+  }
+}
+function checkOldBrowser() {
+  if(!document.body) {
+    setTimeout(checkOldBrowser, 100);
+    return;
+  }
+  try {
+    if (!('noModule' in HTMLScriptElement.prototype)) {
+      exposeGlobals();
+      var alert = '<div class="OldBrowser__container OldBrowser__container--atom" style="width:960px;">  Ваш браузер устарел. Попробуйте <a href="https://vk.com/away.php?to=https%3A%2F%2F1l-go.mail.ru%2Fr%2Fadid%2F3010897_2013344%2Fpid%2F102819%2Fpof%2F1%2Ff%2F3%2F%3F_1larg_sub%3D505001%26utm_source%3Dvk%26rfr%3D505001&badbrowser=atom&badbrowser_meta=atom_with_player_badbrowser_alert&" target="_blank">браузер Atom</a>, чтобы работа ВКонтакте была быстрой и стабильной. <a href="https://vk.com/away.php?to=https%3A%2F%2F1l-go.mail.ru%2Fr%2Fadid%2F3010897_2013344%2Fpid%2F102819%2Fpof%2F1%2Ff%2F3%2F%3F_1larg_sub%3D505001%26utm_source%3Dvk%26rfr%3D505001&badbrowser=atom&badbrowser_meta=atom_with_player_badbrowser_alert&" target="_blank">Подробнее</a>  <span class="OldBrowser__close" aria-label="Закрыть" role="button" onclick="hideOldBrowser();"></span></div>';
+      alertCont = document.createElement('div');
+      alertCont.className = 'OldBrowser';
+      alertCont.id = 'old_browser_wrap';
+      alertCont.innerHTML = alert;
+      document.body.appendChild(alertCont);
+      trackOldBrowserEvent('showAlert_atom');
+    }
+  } catch(e) {}
+}
+checkOldBrowser();
+})();
+var vk = {
+  ads_rotate_interval: 120000,
+  al: parseInt('3') || 4,
+  id: 0,
+  intnat: '' ? true : false,
+  host: 'vk.com',
+  loginDomain: 'https://login.vk.com/',
+  lang: 0,
+  statsMeta: {"platform":"web2","st":false,"time":1587975802,"hash":"OznyPkgMdUcl7CbfYkSi95zEkGOyKx5qSvWJ1kpFmYg"},
+  loaderNavSection: '',
+  rtl: parseInt('') || 0,
+  version: 11741955,
+  stDomains: 0,
+  stDomain: '',
+  wsTransport: 'https://stats.vk-portal.net',
+  stExcludedMasks: ["loader_nav","lang"],
+  zero: false,
+  contlen: 6081,
+  loginscheme: 'https',
+  ip_h: '21719d5f5606eaeef0',
+  navPrefix: '/',
+  dt: parseInt('0') || 0,
+  fs: parseInt('13') || 13,
+  ts: 1587975802,
+  tz: 10800,
+  pd: 0,
+  css_dir: '',
+  vcost: 7,
+  time: [2020, 4, 27, 11, 23, 22],
+  sampleUser: -1, spentLastSendTS: new Date().getTime(),
+  a11y: 0,
+  statusExportHash: '',
+  audioAdsConfig: {"_":"_"},
+  longViewTestGroup: "every_view",
+  cma: 1,
+  lpConfig: {
+    enabled: 0,
+    key: '',
+    ts: 0,
+    url: '',
+    lpstat: 0
+  },
+
+  pr_tpl: "<div class=\"pr %cls%\" id=\"%id%\"><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><\/div>",
+  push_hash: 'e160acbe0dac422471',
+
+  audioInlinePlayerTpl: "<div class=\"audio_inline_player _audio_inline_player no_select\">\n  <div class=\"audio_inline_player_right\">\n    <div class=\"audio_inline_player_volume\"><\/div>\n  <\/div>\n  <div class=\"audio_inline_player_left\">\n    <div class=\"audio_inline_player_progress\"><\/div>\n  <\/div>\n<\/div>",
+
+  tnsPixelType: 'unauth',
+  tnsPixelSocdem: '13',
+
+  pe: {"article_poll":1,"vk_apps_svg_qr":1,"upload.send_upload_stat":1,"push_notifier":1,"audio_search_new_catalog":1,"story_reactions_web":1,"notify_new_events_box":1,"web_ajax_json_object":1,"mini_apps_web_add_to_favorites":1,"cookie_class_samesite":1,"cookie_secure_default_true":1,"mvk_new_info_snackbar":1,"stickers_bot_link":1,"market_with_products_of_groups":1,"apps_promo_share_story":1,"widgets_xdm_same_origin":1,"stickers_money_transfer_suggestions":1,"web2_story_box_enabled":1,"gifts_stickers_preview_tooltips":1,"easy_market_promote_new_payment":1,"navigation_timespent":1,"mvk_mediascope_counter":1,"market_item_recommendations_view_log":1,"market_item_others_view_log":1,"web_stats_transport_story_view":1,"notifications_view_new":1,"add_from_field_to_docs_box":1},
+  countryISO: 'RU',
+};;vk.rv="24195";;vk.articleDarkMode=0;vk.noSideTop=1;vk.isStandaloneArticlePage=1;;if (!window.constants) { window.constants = {Groups: {
+  GROUPS_ADMIN_LEVEL_USER: 0,
+  GROUPS_ADMIN_LEVEL_MODERATOR: 1,
+  GROUPS_ADMIN_LEVEL_EDITOR: 2,
+  GROUPS_ADMIN_LEVEL_ADMINISTRATOR: 3,
+  GROUPS_ADMIN_LEVEL_HOST: 4,
+  GROUPS_ADMIN_LEVEL_EVENT_CREATOR: 5,
+  GROUPS_ADMIN_LEVEL_CREATOR: 6,
+  GROUPS_ADMIN_PSEUDO_LEVEL_ADVERTISER: 100
+}}; };
+
+window.locDomain = vk.host.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+var _ua = navigator.userAgent.toLowerCase();
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) document.domain = locDomain;
+var ___htest = (location.toString().match(/#(.*)/) || {})[1] || '', ___to;
+___htest = ___htest.split('#').pop();
+if (vk.al != 1 && ___htest.length && ___htest.substr(0, 1) == vk.navPrefix) {
+  if (vk.al != 3 || vk.navPrefix != '!') {
+    ___to = ___htest.replace(/^(\/|!)/, '');
+    if (___to.match(/^([^\?]*\.php|login|mobile|away)([^a-z0-9\.]|$)/)) ___to = '';
+    location.replace(location.protocol + '//' + location.host + '/' + ___to);
+  }
+}
+
+var StaticFiles = {
+  'cmodules/web/common_web.js' : {v: '170'},
+  'common.css':{v:65760341776},'base.css':{v:1},'fonts_utf.css':{v:1}
+  ,'cmodules/bundles/audioplayer.84da478b54a0c8a6acb1.js':{v:'27eeb6e37d95c5961a2d'},'cmodules/bundles/common.e83a2c4fda405be0ae55.js':{v:'3eef8ec66ca1f1e4b65f'},'cmodules/web/common_web.88f7612039576fe88360.js':{v:'4a645ee865b6592b2672587767160322'},'lang0_0.js': {v: 26466263},'cmodules/bundles/637aa6036536cb04f3a1f378656a0595.218bb6bbc5fdabd1aff1.js':{v:'aecae4bfb34d4f9bd87f'},'cmodules/bundles/3113b7f72dc7a6cb1bd72a96856988db.d8971d0e3d06159d1ba7.js':{v:'8292d1a5be5d8d2ac328'},'cmodules/web/article_layer.29410c313f4ffa24d29e.js':{v:'dd967a9e8867c1ad9254631185bcb8b7'},'cmodules/web/article_layer.js':{v:4},'article.css':{v:39145353941},'cmodules/web/jobs_devtools_notification.7be8bcdf4194265dd2de.js':{v:'0cb31144ee88bbc0993f9799312d0ccb'},'cmodules/web/jobs_devtools_notification.js':{v:1},'cmodules/web/grip.dd040f0ecdbc0ce2592a.js':{v:'82d5697fd2e5a493ff51fa94f16fe068'},'cmodules/web/grip.js':{v:1}
+}
+var abp;
+</script>
+
+<link type="text/css" rel="stylesheet" href="/css/al/article.css?39145353941" /><script type="text/javascript" src="/js/loader_nav11741955_0.js"></script><script type="text/javascript" src="/js/cmodules/bundles/audioplayer.84da478b54a0c8a6acb1.js?27eeb6e37d95c5961a2d"></script><script type="text/javascript" src="/js/cmodules/bundles/common.e83a2c4fda405be0ae55.js?3eef8ec66ca1f1e4b65f"></script><script type="text/javascript" src="/js/cmodules/web/common_web.88f7612039576fe88360.js?4a645ee865b6592b2672587767160322"></script><script type="text/javascript" src="/js/lang0_0.js?26466263"></script><script type="text/javascript" src="/js/lib/px.js?ch=1"></script><script type="text/javascript" src="/js/lib/px.js?ch=2"></script><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.vk.com/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba" /><link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba" /><meta name="msApplication-ID" content="C6965DD5.VK" /><meta name="msApplication-PackageFamilyName" content="C6965DD5.VK_v422avzh127ra" /><meta name="google-site-verification" content="CNjLCRpSR2sryzCC4NQKKCL5WnvmBTaag2J_UlTyYeQ" /><meta name="yandex-verification" content="798f8402854bea07" /><script type="text/javascript" src="/js/cmodules/bundles/637aa6036536cb04f3a1f378656a0595.218bb6bbc5fdabd1aff1.js?aecae4bfb34d4f9bd87f"></script><script type="text/javascript" src="/js/cmodules/bundles/3113b7f72dc7a6cb1bd72a96856988db.d8971d0e3d06159d1ba7.js?8292d1a5be5d8d2ac328"></script><script type="text/javascript" src="/js/cmodules/web/article_layer.29410c313f4ffa24d29e.js?dd967a9e8867c1ad9254631185bcb8b7"></script><script type="text/javascript" src="/js/cmodules/web/jobs_devtools_notification.7be8bcdf4194265dd2de.js?0cb31144ee88bbc0993f9799312d0ccb"></script><script type="text/javascript" src="/js/cmodules/web/grip.dd040f0ecdbc0ce2592a.js?82d5697fd2e5a493ff51fa94f16fe068"></script>
+
+</head>
+
+<body onresize="onBodyResize()" class="article_body ">
+  <div id="system_msg" class="fixed"></div>
+  <div id="utils"></div>
+
+  <div id="layer_bg" class="fixed"></div><div id="layer_wrap" class="scroll_fix_wrap fixed layer_wrap"><div id="layer"></div></div>
+  <div id="box_layer_bg" class="fixed"></div><div id="box_layer_wrap" class="scroll_fix_wrap fixed"><div id="box_layer"><div id="box_loader"><div class="pr pr_baw pr_medium" id="box_loader_pr"><div class="pr_bt"></div><div class="pr_bt"></div><div class="pr_bt"></div></div><div class="back"></div></div></div></div>
+
+  <div id="stl_left"></div><div id="stl_side"></div>
+
+  <script type="text/javascript">window.domStarted && domStarted();</script>
+
+  <div class="scroll_fix_wrap _page_wrap" id="page_wrap"><div class="article_layer _article_layer  article_layer--standalone" tabindex="-1">
+  <div class="article_layer__inner">
+    <div class="article_layer__up">
+      <div class="article_layer__back">Назад</div>
+    </div>
+    <div class="article_layer__top_actions _article_layer__top_actions">
+      <div class="article_layer__dark"></div><div class="article_layer__close _article_layer__close"></div>
+    </div>
+    <div class="article_layer__views">
+        <div class="article_layer__content">
+      <div class="article_layer__header clear_fix">
+    <a href="/spartacus2012" class="article_layer__header_owner_link"><div class="article_layer__header_owner_img" style="background-image: url(https://sun1-84.userapi.com/c836521/v836521828/35848/nj_eosVYPsI.jpg?ava=1)"></div></a>
+    <a href="/spartacus2012" class="article_layer__header_owner_name">НОВИНКИ КИНО 2020 | ЛУЧШИЕ ФИЛЬМЫ</a>
+    <div class="article_layer__header_subtitle">
+      <span class="article_layer__header_date_published">29 окт 2018</span>
+    </div>
+    <div class="article_layer__additional_buttons no_select"></div>
+  </div>
+    
+    
+    <div class="article article_view " id="article_view_-36455846_11060" data-article-url="/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba" data-audio-context="article:-36455846_11060"><h1  class="article_decoration_first article_decoration_last" >Фанаты "Властелина колец" потребовали превратить небоскреб в башню Саурона<span class='article_anchor_button' id='fanaty-vlastelina-kolets-potrebovali-prevratit-neboskreb-v-bashnyu-saurona'></span></h1><p  class="article_decoration_first article_decoration_last article_decoration_before" >Фанаты трилогии Питера Джексона "Властелин колец" организовали сбор подписей под петицией, призывающей владельцев небоскреба Salesforce Tower в Сан-Франциско разместить на его вершине Око Саурона.</p><figure data-type="101" data-mode="1"  class="article_decoration_first article_decoration_last" >
+  <div class="article_figure_content" style="width: 575px">
+    <div class="article_figure_sizer_content"><div class="article_object_sizer_wrap" data-sizes="[{&quot;m&quot;:[&quot;https:\/\/sun9-63.userapi.com\/c851224\/v851224787\/331eb\/o9HVTgrb1nM.jpg&quot;,105,130],&quot;o&quot;:[&quot;https:\/\/sun9-44.userapi.com\/c851224\/v851224787\/331ee\/r8LqNWxlhu4.jpg&quot;,130,161],&quot;p&quot;:[&quot;https:\/\/sun9-10.userapi.com\/c851224\/v851224787\/331ef\/aSJ3CITh1gQ.jpg&quot;,200,247],&quot;q&quot;:[&quot;https:\/\/sun9-58.userapi.com\/c851224\/v851224787\/331f0\/scKP8_H23YQ.jpg&quot;,320,395],&quot;r&quot;:[&quot;https:\/\/sun9-21.userapi.com\/c851224\/v851224787\/331f1\/_zgDVv_NkDA.jpg&quot;,510,630],&quot;s&quot;:[&quot;https:\/\/sun9-30.userapi.com\/c851224\/v851224787\/331ea\/DwRq4-Zwxd0.jpg&quot;,61,75],&quot;x&quot;:[&quot;https:\/\/sun9-44.userapi.com\/c851224\/v851224787\/331ec\/awEo8BNGUH4.jpg&quot;,489,604],&quot;y&quot;:[&quot;https:\/\/sun9-6.userapi.com\/c851224\/v851224787\/331ed\/mOiEN_zXq1E.jpg&quot;,575,710]}]">
+  <img class="article_object_sizer_inner article_object_photo__image_blur" src="https://sun9-30.userapi.com/c851224/v851224787/331ea/DwRq4-Zwxd0.jpg" data-baseurl="" alt="Фанаты &quot;Властелина колец&quot; потребовали превратить небоскреб в башню Саурона, изображение №1"/>
+  
+</div></div>
+    <div class="article_figure_sizer" style="padding-bottom: 123.47826086957%"></div>
+  </div>
+  <figcaption data-captions="[&quot;&quot;]"></figcaption>
+</figure><p  class="article_decoration_first" >"Мы верим в силу интернета как места для обмена идеями и влияния на изменения в мире. Наша цель состоит в том, чтобы создать глоток творчески свежего воздуха среди бесплодного политического ландшафта. Это ведь город, построенный на творчестве, стремлении к лучшему и самовыражению. Мы призываем владельцев подать правильный знак всем, кто осмеливается мечтать, объединив районы, укрепив связи и наводя новые мосты, зажечь огонь над этим священным городом. Это будет забавное, артистическое и очень своевременное представление, которым сможет насладиться весь город", - говорят авторы воззвания, подчеркивая, что речь идет не о постоянной экспозиции, а лишь о времени, когда будет отмечаться Хэллоуин.</p><p  >Небоскреб Salesforce Tower был открыт в 2018 году, его высота составляет 326 метров, что сделало его самым высоким зданием Сан-Франциско. Что касается Ока Саурона, то оно в литературном первоисточнике и фильмах Питера Джексона оно являлось олицетворением зла и переходной формой существования приспешника Мелькора.</p><p  class=" article_decoration_last" >Источник: Change</p></div><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","description":"Фанаты трилогии Питера Джексона \"Властелин колец\" организовали сбор подписей под петицией, призывающей владельцев небоскреба Salesforce T..","image":"https:\/\/sun9-6.userapi.com\/c851224\/v851224787\/331ed\/mOiEN_zXq1E.jpg","headline":"Фанаты \"Властелина колец\" потребовали превратить небоскреб в башню Саурона","author":{"@type":"Organization","name":"НОВИНКИ КИНО 2020 | ЛУЧШИЕ ФИЛЬМЫ"},"dateModified":"2018-10-29T22:09:30+03:00","datePublished":"2018-10-29T22:09:30+03:00","publisher":{"@type":"Organization","name":"VK","logo":{"@type":"ImageObject","url":"https:\/\/vk.com\/images\/logos\/vklogo_400.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/vk.com\/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba"}}</script><a href="/@spartacus2012-dzheims-kemeron-zakonchil-semki-dvuh-prodolzhenii-avatara" style="display: none" target="_blank"></a><a href="/@spartacus2012-kapitana-dzheka-vorobya-spisali-na-bereg" style="display: none" target="_blank"></a>
+    
+    <div class="article_layer_misc"><div class="article_layer_ads_place"></div></div>
+    
+    <div class="article_layer__simple_footer">9172 просмотра</div>
+  </div>
+    </div>
+  </div>
+</div><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2579437;js=na" style="border:0;" height="1" width="1" />
+</div></noscript></div>
+  <div class="progress" id="global_prg"></div>
+
+  <script type="text/javascript">
+    if (parent && parent != window && (browser.msie || browser.opera || browser.mozilla || browser.chrome || browser.safari || browser.iphone)) {
+      document.getElementsByTagName('body')[0].innerHTML = '';
+    } else {
+      window.domReady && domReady();
+      ArticleLayer.show({"id":11060,"owner_id":-36455846,"raw_id":"-36455846_11060","title":"Фанаты &quot;Властелина колец&quot; потребовали превратить небоскреб в башню Саурона","name":"fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba","access_hash":"fd2bce9f9a5e5055fb","subtitle":"Фанаты трилогии Питера Джексона \"Властелин колец\" организовали сбор подписей под петицией, призывающей владельцев небоскреба Salesforce T..","published_date":1540840170,"url":"\/@spartacus2012-fanaty-vlastelina-kolec-potrebovali-prevratit-neboskreb-v-ba","cover_photo_id":"-36455846_456288246","can_report":true,"owner_photo":"https:\/\/sun1-97.userapi.com\/c836521\/v836521828\/35847\/0mAP1uxyNjo.jpg?ava=1","owner_name":"НОВИНКИ КИНО 2020 | ЛУЧШИЕ ФИЛЬМЫ","owner_href":"\/spartacus2012","ads":[],"mailru_stats_data":{"article_id":"-36455846_11060_fd2bce9f9a5e5055fb","vk_id":0,"sex":"","age":"","is_subscribed":0,"platform":"desktop","wc":159},"fave_hash":"a5a0a7b2e03e941d39","bookmark_hash":"0e93b9ad88f349d5eb","moder_actions_hash":"","moderDeletePhoto":false,"ttr":0,"views":9172,"shares":3,"views_formatted":"9172 просмотра","shares_formatted":"3 поделились","is_faved":false,"is_subscribed_to_owner":false,"is_blog":false,"from_blog":false,"rev":0,"ref":"","has_more":false,"has_more_hash":"","audios_list":[],"market_items_count":0,"next_article_url":"\/@spartacus2012-kapitana-dzheka-vorobya-spisali-na-bereg"}, false, false);
+window.cur = window.cur || {};
+cur['emojiHintsSendLogHash']="b88e373dd4e191f0ca";
+
+;(function (d, w) {
+if (w.__dev) {
+  return
+}
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+      window.curReady && window.curReady();
+    }
+  </script>
+</body>
+
+</html>
