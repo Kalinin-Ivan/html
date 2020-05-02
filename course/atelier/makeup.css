@@ -1,0 +1,70 @@
+#basic{
+	position:				relative;
+	width:					1002px;
+	margin:					auto;
+}
+
+#header{
+	height:					100px;
+	background-color:		#faa;
+}
+
+#container{
+	padding-bottom:			80px;
+	overflow:				hidden;
+	padding-left:			200px;
+	padding-right:			190px;
+	background-color:		#eee;
+}
+
+#footer{
+	position:				absolute;
+	bottom:					0;
+	height:					80px;
+	width:					100%;
+	background-color:		#aaf;
+}
+
+#content{
+	float:					left;
+	width:					100%;
+	background-color:		#afa;
+}
+
+#left_column{
+	float:					left;
+	margin-left:			-200px;
+	position:				relative;
+	right:					612px;	/*ширина контента*/
+	width:					200px;
+	background-color:		#8f8;
+}
+
+#right_column{
+	float:					left;
+	width:					190px;
+	margin-right:			-190px;
+	background-color:		#6f6;
+}
+
+HTML > BODY #basic{/* IE7 и остальные*/
+	height:					auto;
+	min-height:				100%;
+}
+
+BODY{
+	margin:					0;
+	padding:				0;
+	background-color:		#555;
+}
+
+HTML, BODY, #basic{
+	height:					100%;
+}
+
+HTML{
+	margin:					0;
+	padding:				0;
+	border:					0;
+	overflow:				auto;/*чтобы в IE не было постоянно вертикальной полосы прокрутки*/
+}

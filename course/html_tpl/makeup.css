@@ -5,7 +5,7 @@ HTML{
 	overflow:				auto;/*чтобы в IE не было постоянно вертикальной полосы прокрутки*/
 }
 
-HTML, BODY, #basi{
+HTML, BODY, #basic{
 	height:					100%;
 }
 
@@ -85,4 +85,11 @@ BODY{
 	height:					80px;
 	width:					300px;
 	float:					left;
+}
+
+#right_column{
+	float:					left;
+	width:					190px;
+	margin-right:			-190px;
+	background-color:		#6f6;
 }
