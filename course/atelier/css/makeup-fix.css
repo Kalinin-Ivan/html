@@ -1,6 +1,6 @@
 #basic{
 	position:				relative;
-	width:					80%;
+	width:				    1002px;
 	margin:					auto;
 }
 
@@ -10,10 +10,12 @@
 }
 
 #container{
+    padding-left:           200px;
+    padding-right:          190px;
 	overflow:				hidden;
 	background-color:		#eee;
-	display:                flex;
-	flex-direction:         row;
+	/*display:                flex;
+	flex-direction:         row;*/
 	align-items:            start;
 }
 
@@ -26,30 +28,29 @@
 }
 
 #content{
-	width:					60%;
-	min-width:              5%;
+	width:					100%;
+    float:                  left;
 	background-color:		#afa;
-	order:                  2;
+	/*order:                  2;*/
 	height:                 500px;
 }
 
 #left_column{
 	right:					612px;	/*ширина контента*/
-	max-width:				20%;
-	width:                  250px;
-	min-width:              250px;
-	background-color:		orange;
-	order:                  1;
+	width:                  200px;
+	margin-left:            -200px;
+    float:                  left;
+	background-color:		#ff8;
+	/*order:                  1;*/
 	height:                 500px;
 }
 
 #right_column{
-	max-width:				20%;
-	width:                  250px;
-	min-width:              250px;
-	/*margin-right:			-190px;*/
+	width:                  190px;
+	margin-right:			-190px;
+    float:                  left;
 	background-color:		orange;
-	order:                  3;
+	/*order:                  3;*/
 	height:                 500px;
 }
 

@@ -1,0 +1,84 @@
+#basic{
+	position:				relative;
+	width:					80%;
+	margin:					auto;
+	height:                 100%;
+}
+
+#header{
+	height:					100px;
+	background-color:		#faa;
+}
+
+#container{
+	/*overflow:				hidden;*/
+	/*background-color:		#eee;*/
+	/*display:                flex; */
+	background-color:		#afa;
+	flex-direction:         row;
+	align-items:            start;
+
+}
+
+#footer{
+	position:				absolute;
+	bottom:					0;
+	height:					80px;
+	width:					100%;
+	background-color:		#aaf;
+}
+
+#content{
+	/*width:					100%;*/
+	min-width:              5%;
+	background-color:		#afa;
+	/* order:                  2; */
+	min-height:                 500px;
+	height:                 100%;
+	float:left;
+}
+
+#left_column{
+	right:					612px;	/*ширина контента*/
+	max-width:				200px;
+	width:                  200px;
+	min-width:              200px;
+	background-color:		orange;
+	/* order:                  1; */
+	min-height:             500px;
+	height:                 100%;
+	float:left;
+}
+
+#right_column{
+	max-width:				200px;
+	width:                  200px;/*250px;*/
+	min-width:              200px;
+	/*margin-right:			-190px;*/
+	background-color:		#ff8;
+	/* order:                  3; */
+	height:                 500px;
+	float:right;
+}
+
+HTML > BODY #basic{/* IE7 и остальные*/
+	height:					auto;
+	min-height:				100%;
+}
+
+BODY{
+	margin:					0;
+	padding:				0;
+	background-color:		#555;
+}
+
+HTML, BODY, #basic{
+	height:					100%;
+}
+
+HTML{
+	margin:					0;
+	padding:				0;
+	border:					0;
+	overflow:				auto;/*чтобы в IE не было постоянно вертикальной полосы прокрутки*/
+}

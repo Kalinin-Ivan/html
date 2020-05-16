@@ -1,0 +1,18 @@
+.class_link_in_mine {
+    width:					198px;
+    height:					20px;
+    background-color:		orange;
+    border:                 1px solid black;
+    text-align:             center;
+    color:                  white;
+    font-size:              15pt;
+}
+
+.class_link_in_mine:hover {
+    background-color:		white;
+    color:                  orange;
+}
+
+.text {
+    text-align:             center;
+}

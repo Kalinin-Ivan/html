@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atelier</title>
+    <link rel="stylesheet" href="../css/makeup.css">
+    <!--link rel="stylesheet" href="../css/makeup-fix_for_index.css"-->
+    <link rel="stylesheet" href="../css/style_for_index.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <!--script>
+        $(document).ready(function(){
+            function reSize(){
+                if( $(window).width() <'800'){
+                    $("#right_column").css({"display":"none"});
+                }
+                else {
+                    $("#right_column").css({"display":"block"});
+                }
+            }
+            $(window).resize(reSize);
+        });
+    </script-->
+    <script>
+        $(document).ready(function(){
+        let containerW = $("#container").width();
+        $("#content").width(containerW-402);
+            function reSize(){
+                containerW = $("#container").width();
+                $("#content").width(containerW-402);
+                $("#left_column").height($("#content").height());
+                $("#right_column").height($("#content").height());
+
+                if( $(window).width() < screen.width/2){
+                    $("#basic").css({"width":"100%","margin":"0px"});
+                }
+                else {
+                    $("#basic").css({"width":"80%","margin":"auto"});
+                }
+            }
+            $(window).resize(reSize);
+        });
+    </script>
+</head>
+<body>
+
+<div id="basic">
+
+    <div id="header">
+    </div>
+
+    <div id="container">
+        <div id="left_column">
+            <div>
+                <a href="products.html">
+                    <div class="class_link_in_mine">
+                        products
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="content">
+            <div class="div">
+                <h2>Здраствуйте! Мы рады приветствовать вас на нашем сайте!</h2>
+                <p class="text">Вы можете заказать элитнае индивидуальные изделия из натуральтной кожи</p>
+                 <h2>Здраствуйте! Мы рады приветствовать вас на нашем сайте!</h2>
+                <p class="text">Вы можете заказать элитнае индивидуальные изделия из натуральтной кожи</p>
+                 <h2>Здраствуйте! Мы рады приветствовать вас на нашем сайте!</h2>
+                <p class="text">Вы можете заказать элитнае индивидуальные изделия из натуральтной кожи</p>
+                 <h2>Здраствуйте! Мы рады приветствовать вас на нашем сайте!</h2>
+                <p class="text">Вы можете заказать элитнае индивидуальные изделия из натуральтной кожи</p>
+            </div>
+        </div>
+        <div id="right_column">
+            <div class="div">
+            </div>
+        </div>
+        <div style="clear:both">
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+</div>
+
+</body>
+</html>
