@@ -12,8 +12,9 @@
 
 #container{
 	/*overflow:				hidden;*/
-	/*background-color:		#eee;*/
-	/*display:                flex; */
+	/*
+	background-color:		#eee;
+	display:                flex; */
 	background-color:		#afa;
 	flex-direction:         row;
 	align-items:            start;
@@ -31,7 +32,7 @@
 #content{
 	/*width:					100%;*/
 	min-width:              5%;
-	background-color:		#afa;
+	background-color:		broun;
 	/* order:                  2; */
 	min-height:                 500px;
 	height:                 100%;
