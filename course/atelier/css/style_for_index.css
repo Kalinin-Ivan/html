@@ -1,18 +1,26 @@
 .class_link_in_mine {
-    width:					198px;
+    width:					140px;
     height:					20px;
-    background-color:		orange;
-    border:                 1px solid black;
+    background-color:		#c5bba7;
+    border:                 5px outset grey;
     text-align:             center;
     color:                  white;
-    font-size:              15pt;
+    font-size:              13pt;
 }
 
 .class_link_in_mine:hover {
     background-color:		white;
-    color:                  orange;
+    color:                  black;
 }
 
 .text {
     text-align:             center;
+}
+
+.zagolovock {
+    text-align:             center;
+    font-size:              30pt;
+    font-variant:           small-caps;
+    margin-top:             20px;
+    vertical-align:         middle;
 }

@@ -7,7 +7,9 @@
 
 #header{
 	height:					100px;
-	background-color:		#faa;
+	background-color:		#e8e0cf;
+	/*margin-top: 			-40px;*/
+	border: 				1px solid black;
 }
 
 #container{
@@ -15,7 +17,7 @@
 	/*
 	background-color:		#eee;
 	display:                flex; */
-	background-color:		#afa;
+	background-color:		#ffffff;
 	flex-direction:         row;
 	align-items:            start;
 
@@ -26,40 +28,44 @@
 	bottom:					0;
 	height:					80px;
 	width:					100%;
-	background-color:		#aaf;
+	background-color:		#e8e0cf;
+	border: 				1px solid black;
 }
 
 #content{
 	/*width:					100%;*/
 	min-width:              5%;
-	background-color:		broun;
+	background-color:		#ffffff;
 	/* order:                  2; */
-	min-height:                 500px;
+	min-height:             500px;
 	height:                 100%;
-	float:left;
+	float:					left;
+	padding: 				10px;
 }
 
 #left_column{
 	right:					612px;	/*ширина контента*/
 	max-width:				200px;
-	width:                  200px;
-	min-width:              200px;
-	background-color:		orange;
+	width:                  150px;
+	min-width:              150px;
+	background-color:		#a9a9a9;
 	/* order:                  1; */
 	min-height:             500px;
 	height:                 100%;
-	float:left;
+	float:					left;
+	border:					1px solid black;
 }
 
 #right_column{
 	max-width:				200px;
-	width:                  200px;/*250px;*/
-	min-width:              200px;
+	width:                  150px;/*250px;*/
+	min-width:              150px;
 	/*margin-right:			-190px;*/
-	background-color:		#ff8;
+	background-color:		#a9a9a9;
 	/* order:                  3; */
 	height:                 500px;
-	float:right;
+	float:					right;
+	border:					1px solid black;
 }
 
 HTML > BODY #basic{/* IE7 и остальные*/
@@ -70,7 +76,7 @@ HTML > BODY #basic{/* IE7 и остальные*/
 BODY{
 	margin:					0;
 	padding:				0;
-	background-color:		#555;
+	/*background-color:		#fff250;*/
 }
 
 HTML, BODY, #basic{

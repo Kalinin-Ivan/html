@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>products</title>
-    <link rel="stylesheet" href="../css/makeup-fix_for_index.css">
+    <link rel="stylesheet" href="../css/makeup.css">
     <link rel="stylesheet" href="../css/style_for_index.css">
+    <script>
+        $(document).ready(function(){
+        let containerW = $("#container").width();
+        $("#content").width(containerW-402);
+            function reSize(){
+                containerW = $("#container").width();
+                $("#content").width(containerW-402);
+                $("#left_column").height($("#content").height());
+                $("#right_column").height($("#content").height());
+
+                if( $(window).width() < screen.width/2){
+                    $("#basic").css({"width":"100%","margin":"0px"});
+                }
+                else {
+                    $("#basic").css({"width":"80%","margin":"auto"});
+                }
+            }
+            $(window).resize(reSize);
+        });
+    </script>
 </head>
 <body>
 
@@ -12,11 +32,19 @@
 <div id="basic">
 
     <div id="header">
+        <p class="zagolovock">
+            Products
+        </p>
     </div>
 
     <div id="container">
         <div id="left_column">
             <div>
+                <a href="index.html">
+                    <div class="class_link_in_mine">
+                        home page Atelier
+                    </div>
+                </a>
                 <a href="products.html">
                     <div class="class_link_in_mine">
                         products
