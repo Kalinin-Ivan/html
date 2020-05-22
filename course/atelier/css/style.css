@@ -10,10 +10,7 @@
 .class_link_in_mine:hover {
     background-color:		#868076;
     color:                  #b9b7b7;
-}
-
-.class_link_in_mine:onklick {
-    border:                 5px inset grey;
+    width:                  170px;
 }
 
 .text {
@@ -33,4 +30,8 @@
     font-variant:           small-caps;
     margin-top:             20px;
     vertical-align:         middle;
+}
+
+.comment {
+    max-width:              400px;
 }

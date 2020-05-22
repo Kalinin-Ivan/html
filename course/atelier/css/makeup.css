@@ -1,6 +1,6 @@
 #basic{
 	position:				relative;
-	width:					80%;
+	width:					90%;
 	margin:					auto;
 	height:                 100%;
 }
@@ -47,8 +47,8 @@
 #left_column{
 	right:					612px;	/*ширина контента*/
 	max-width:				200px;
-	width:                  170px;
-	min-width:              170px;
+	width:                  180px;
+	min-width:              180px;
 	background-color:		#efefef;
 	/* order:                  1; */
 	min-height:             500px;
@@ -59,8 +59,8 @@
 
 #right_column{
 	max-width:				200px;
-	width:                  170px;/*250px;*/
-	min-width:              170px;
+	width:                  180px;/*250px;*/
+	min-width:              180px;
 	/*margin-right:			-190px;*/
 	background-color:		#efefef;
 	/* order:                  3; */
