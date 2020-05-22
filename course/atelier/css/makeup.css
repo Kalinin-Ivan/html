@@ -7,9 +7,10 @@
 
 #header{
 	height:					100px;
-	background-color:		#e8e0cf;
+	background-color:		#efefef;
 	/*margin-top: 			-40px;*/
 	border: 				1px solid black;
+	overflow-y:				hidden;
 }
 
 #container{
@@ -17,7 +18,7 @@
 	/*
 	background-color:		#eee;
 	display:                flex; */
-	background-color:		#ffffff;
+	background-color:		#efefef;
 	flex-direction:         row;
 	align-items:            start;
 
@@ -28,14 +29,14 @@
 	bottom:					0;
 	height:					80px;
 	width:					100%;
-	background-color:		#e8e0cf;
+	background-color:		#efefef;
 	border: 				1px solid black;
 }
 
 #content{
 	/*width:					100%;*/
 	min-width:              5%;
-	background-color:		#ffffff;
+	background-color:		#efefef;
 	/* order:                  2; */
 	min-height:             500px;
 	height:                 100%;
@@ -46,9 +47,9 @@
 #left_column{
 	right:					612px;	/*ширина контента*/
 	max-width:				200px;
-	width:                  150px;
-	min-width:              150px;
-	background-color:		#a9a9a9;
+	width:                  170px;
+	min-width:              170px;
+	background-color:		#efefef;
 	/* order:                  1; */
 	min-height:             500px;
 	height:                 100%;
@@ -58,10 +59,10 @@
 
 #right_column{
 	max-width:				200px;
-	width:                  150px;/*250px;*/
-	min-width:              150px;
+	width:                  170px;/*250px;*/
+	min-width:              170px;
 	/*margin-right:			-190px;*/
-	background-color:		#a9a9a9;
+	background-color:		#efefef;
 	/* order:                  3; */
 	height:                 500px;
 	float:					right;
