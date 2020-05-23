@@ -35,3 +35,12 @@
 .comment {
     max-width:              400px;
 }
+
+BODY {
+    background:             url(../../img/unnamed1.png);
+}
+
+
+td {
+    border:                 3px outset black;
+}
