@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>From which products</title>
-    <link rel="stylesheet" href="../css/makeup.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Главная страница Atelier</title>
+    <link rel="stylesheet" href="css/makeup.css">
+    <!--link rel="stylesheet" href="css/makeup-fix_for_index.css"-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <!--script>
+        $(document).ready(function(){
+            function reSize(){
+                if( $(window).width() <'800'){
+                    $("#right_column").css({"display":"none"});
+                }
+                else {
+                    $("#right_column").css({"display":"block"});
+                }
+            }
+            $(window).resize(reSize);
+        });
+    </script-->
     <script>
         $(document).ready(function(){
         let containerW = $("#container").width();
@@ -28,44 +43,43 @@
 </head>
 <body>
 
-
 <div id="basic">
 
     <div id="header">
         <p class="zagolovock">
-            Из чего делают наши изделия
+            Главная страница Atelier
         </p>
     </div>
 
     <div id="container">
         <div id="left_column">
             <div>
-                <a href="../index.html">
+                <a href="index.html">
                     <div class="class_link_in_mine">
                         Главная страница Atelier
                     </div>
                 </a>
-                <a href="products.html">
+                <a href="html/products.html">
                     <div class="class_link_in_mine">
                         Изделия
                     </div>
                 </a>
-                <a href="from_which_products.html">
+                <a href="html/products.html">
                     <div class="class_link_in_mine">
                         Из чего изделия
                     </div>
                 </a>
-                <a href="How_to_contact_us.html">
+                <a href="html/How_to_contact_us.html">
                     <div class="class_link_in_mine">
                         Как с нами связаться
                     </div>
                 </a>
-                <a href="basket.html">
+                <a href="html/basket.html">
                     <div class="class_link_in_mine">
                         Корзина
                     </div>
                 </a>
-                <a href="comment.html">
+                <a href="html/comment.html">
                     <div class="class_link_in_mine">
                         Коментарий
                     </div>
@@ -74,6 +88,11 @@
         </div>
         <div id="content">
             <div class="div">
+                <h2>Здраствуйте! Мы рады приветствовать вас на нашем сайте!</h2>
+                <p class="text">Вы можете заказать элитные индивидуальные изделия из натуральтной кожи на странице "Изделия"</p>
+                <p class="text">Все изделия которые мы создаём сделаны из натуральной кожи. Подробнее вы можете узнать на странице "Из чего изделия"</p>
+                <p class="text">Вы можете найти номер телефона и адрес электронной почты менеджера на странице "Как с нами связаться"</p>
+                <p class="text">А так же написать нам коментарий на странице "Коментарий"</p>
             </div>
         </div>
         <div id="right_column">

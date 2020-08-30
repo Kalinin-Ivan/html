@@ -1,14 +1,14 @@
 .class_link_in_mine {
     width:					160px;
     height:					20px;
-    background-color:		#c5bba7;
-    border:                 5px outset grey;
+    background-color:		#984701;
+    border:                 5px outset #691e02;
     color:                  white;
     font-size:              15px;
 }
 
 .class_link_in_mine:hover {
-    background-color:		#868076;
+    background-color:		#984701;
     color:                  #b9b7b7;
     width:                  170px;
 }
@@ -16,7 +16,7 @@
 .text {
     text-align:             center;
     display:                block;
-    border:                 5px outset grey;
+    border:                3px dotted brown;
 }
 
 .zagolovock {
@@ -28,7 +28,7 @@
 }
 
 BODY {
-    background:             url(../../img/unnamed1.png);
+    background:             url(../img/unnamed.png);
 }
 
 
@@ -36,14 +36,25 @@ td , th {
     border:                 1px solid black;
     width:                  10%;
     height:                 10%;
+    padding:                2px;
 }
 
 table {
-    border:                 5px outset grey;
+    border:                 5px double #350404;
     height:                 50%;
 }
 
 .img_in_table {
-    height:                75px;
-    width:                 100px;
+    height:                55px;
+    width:                 75px;
+    border:                1px solid black;
+}
+
+input, textarea {
+    background-color:      #691e02;
+    border:                3px dotted brown;
+}
+
+.z:invalid {
+    background-color:      red;
 }
